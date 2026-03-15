@@ -33,10 +33,10 @@ jobs:
       run: ./gradlew createReobfPaperclipJar
 
     - name: Upload PaperJar Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4  # обновлено с v3 на v4
       with:
         name: paperclip-jar
-        path: build/libs/*.jar  # путь к сгенерированным jar-файлам
+        path: build/libs/*.jar
 
   dependency-submission:
 
