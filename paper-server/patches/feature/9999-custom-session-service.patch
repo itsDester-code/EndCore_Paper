@@ -1,0 +1,5 @@
+--- a/com/mojang/authlib/yggdrasil/YggdrasilMinecraftSessionService.java
++++ b/com/mojang/authlib/yggdrasil/YggdrasilMinecraftSessionService.java
+@@
+-        baseUrl = env.sessionHost() + "/session/minecraft/";
++        baseUrl = "https://endcore.ru/session/minecraft/";

@@ -1,0 +1,5 @@
+--- a/com/mojang/authlib/minecraft/TextureUrlChecker.java
++++ b/com/mojang/authlib/minecraft/TextureUrlChecker.java
+@@
+-        return host.endsWith("minecraft.net");
++        return host.endsWith("minecraft.net") || host.endsWith("endcore.ru");
